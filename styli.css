@@ -94,3 +94,18 @@ span:active{
     font-weight: 500;
     transition: all .5s;
 }
+@media only screen and (max-width:800px){
+    span:hover{
+        background: rgba(255,255, 255,0.0);
+        color: #fff;
+        transition: all .3s;
+    }
+    .equal:hover{
+        background: rgba(255,255, 255, 0.4);
+    }
+    .clear:hover{
+        grid-column: span 2;
+        width: 150px;
+        background: rgba(255,255, 255,0.1);
+    }
+}
