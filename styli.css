@@ -10,7 +10,18 @@ body{
     min-height: 100vh;
     background: #091921;
 }
-
+.card {
+    display: flex;
+    z-index: 9999;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: url("bg.webp");
+    background-size: 110%;
+    background-position: center;
+    transition: 0.5s;
+  }
 body::after{
     position: absolute;
     content: " ";

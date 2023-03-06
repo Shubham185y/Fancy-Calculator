@@ -7,7 +7,12 @@
     <title>Calculator</title>
     <link rel="stylesheet" href="styli.css">
 </head>
-<body>
+<body>  <div
+    id="card"
+    class="card"
+    onmousemove="onMouseMove(event)"
+    onmouseleave="onMouseLeave(event)"
+  >
     <div class="container">
         <form name="calc" class="calculator">
             <textarea name="txt" class="value"  rows="5" readonly></textarea>
@@ -31,6 +36,7 @@
             <span class="num equal" onclick="document.calc.txt.value = eval(calc.txt.value) " >=</span>
         </form>
     </div>
-
+    </div>
+<script  type="text/javascript" src="index.js"></script>
 </body>
 </html>
